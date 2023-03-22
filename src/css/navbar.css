@@ -1,0 +1,92 @@
+/* styling the navbar */
+.navBar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: lightcyan;
+}
+
+
+/* to horizontally line the navbar */
+ .navBar li {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
+ }
+
+ /* styling the anchor tags buttons in the dropdown menu */
+ .navBar li a {
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+ }
+
+ /* hover color for main buttons */
+ .navBar li:hover {
+    background-color: rgb(126, 168, 168);;
+
+ }
+
+
+ /* to position it as inline block dropdown container1 */
+ .navBar li.dropdownContainer1 {
+    display: inline-block;
+ }
+
+ /* dropdownContent1 style and hide the dropdown content*/
+ .dropdownContainer1 .dropdownContent1 {
+    display: none;
+    position:absolute;
+    background-color: rgb(126, 168, 168);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 14px;
+ }
+
+  /* to display the dropdownContent1 as a block */
+  .navBar .dropdownContent1 a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 12px 16px;
+ }
+
+ .navBar li a:hover {
+    background-color: azure;
+ }
+
+ /* to display the dropdownContent1 when hovered to dropdownContainer1 */
+.dropdownContainer1:hover .dropdownContent1{
+    display: block;
+}
+
+ /* to position it as inline block dropdown container2 */
+ .navBar li.dropdownContainer2 {
+    display: inline-block;
+ }
+
+ /* dropdownContent2 styles and hide the dropdown content */
+ .dropdownContainer2 .dropdownContent2 {
+    display: none;
+    position: absolute;
+    background-color: rgb(126, 168, 168);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 14px;
+ }
+
+ /* to display the dropdownContent2 as a block */
+ .navBar .dropdownContent2 a {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+ }
+
+/* to display the dropdownContent2 when hovered to dropdownContainer2 */
+.dropdownContainer2:hover .dropdownContent2{
+    display: block;
+}

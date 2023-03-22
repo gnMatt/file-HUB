@@ -1,0 +1,40 @@
+body {
+    background-color: #00471b;
+}
+
+#container2{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.skin {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.desc {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+#label {
+    color:white;
+}
+
+#rc {
+    background-color: #eee1cb;
+}
+
+#survey{
+    background-color:#eee1cb;
+}

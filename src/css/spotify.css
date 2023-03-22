@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#sidenav {
+    height: 100%;
+    width:240px;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #000000;
+    padding: 12px;
+}
+
+#logo {
+    width: 140px;
+    height: 80px;
+    background-image: url("../public/img/spotify_logo.png");
+    background-position: center left;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#content {
+    background-color: #121212;
+    color: white;
+    margin-left: 240px;
+   
+     
+}
+

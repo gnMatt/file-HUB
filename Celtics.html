@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boston Celtics</title>
+    <link rel="stylesheet" type="text/css" href="src/css/Celticsstyle.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Labrada:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+        <div>
+            <img
+            id="logo"
+            src="src/img/boston_celtics.png"
+            alt="Celtics"
+            title="Celtics Logo"
+            width="20%"
+            height="20%"
+            />
+        </div>
+        <div id="label" class="design">
+            <h1>Boston Celtics</h1>
+            <h3>Head Coach: Joe Mazulla</h3>
+            <h4>Starting Five</h4>
+        </div>
+        <div id="container2">
+            <div>
+                <img
+                src="src/img/smart.png"
+                title="marcus smart"
+                />
+            </div>
+            <div>
+                <img
+                src="src/img/brown.png"
+                title="jaylen brown"
+                />
+            </div>
+            <div>
+                <img
+                src="src/img/white.png"
+                title="derrick white"
+                />
+            </div>
+            <div>
+                <img
+                src="src/img/tatum.png"
+                title="jayson tatum"
+                />
+            </div>
+            <div>
+                <img
+                src="src/img/horford.png"
+                title="al horford"
+                />
+            </div>
+        </div>    
+        <div class="design">
+            <table id="rc" border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Jersey# and Name</th>
+                        <th colspan="1">Position</th>
+                        <th colspan="1">Rating</th>
+                        <th colspan="2">Minutes-Points</th>
+                        <th colspan="3">AST-STL-BLK</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#36</td>
+                        <td>Marcus Smart</td>
+                        <td>PG</td>
+                        <td>83</td>
+                        <td>33.3</td>
+                        <td>11.3</td>
+                        <td>7.1</td>
+                        <td>1.3</td>
+                        <td>0.4</td>
+                    </tr>
+                    <tr>
+                        <td>#9</td>
+                        <td>Derrick White</td>
+                        <td>SG</td>
+                        <td>77</td>
+                        <td>27.7</td>
+                        <td>12</td>
+                        <td>2.4</td>
+                        <td>0.8</td>
+                        <td>0.2</td>
+                    </tr>
+                    <tr>
+                        <td>#0</td>
+                        <td>Jason Tatum</td>
+                        <td>SF</td>
+                        <td>92</td>
+                        <td>37.3</td>
+                        <td>30.1</td>
+                        <td>4.1</td>
+                        <td>0.6</td>
+                        <td>0.2</td>
+                    </tr>
+                    <tr>
+                        <td>#42</td>
+                        <td>Al Horford</td>
+                        <td>PF</td>
+                        <td>81</td>
+                        <td>30.7</td>
+                        <td>9.4</td>
+                        <td>0.4</td>
+                        <td>0.3</td>
+                        <td>0.6</td>
+                    </tr>
+                    <tr>
+                        <td>#44</td>
+                        <td>Robert Williams III</td>
+                        <td>C</td>
+                        <td>86</td>
+                        <td>24.4</td>
+                        <td>8.4</td>
+                        <td>0.3</td>
+                        <td>0.5</td>
+                        <td>0.4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr>
+
+        <div id="survey" class="design">
+            <h4>Survey</h4>
+            Who is your favorite in the first five of this team?
+            <br>
+            <form>
+                <select name="players">
+                    <option value="" disabled selected hidden>Select player</option>
+                    <option value="Marcus Smart">Marcus Smart</option>
+                    <option value="Derrick White">Derrick White</option>
+                    <option value="Jason Tatum">Jason Tatum</option>
+                    <option value="Al Horford">Al Horford</option>
+                    <option value="Rober Williams III">Robert Williams III</option>
+                </select>
+            </form>
+            <br>
+            <br>
+            <form>
+                Do you think this team will be the champion this year?
+                YES
+                <input type="radio" name="yes"/>
+                NO
+                <input type="radio" name="no"/>
+            </form>
+            <br>
+            <br>
+            Any comments on this team?
+            <form>
+                <textarea placeholder="feel free to write anything.."></textarea>
+            </form>
+        </div>
+  </body>
+</html>
